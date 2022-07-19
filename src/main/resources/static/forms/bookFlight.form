@@ -1,0 +1,39 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "First Class",
+          "value": "firstClass"
+        },
+        {
+          "label": "Business Class",
+          "value": "businessClass"
+        },
+        {
+          "label": "Economy Class",
+          "value": "economyClass"
+        }
+      ],
+      "label": "Ticket Type",
+      "type": "select",
+      "id": "Field_1m60e8k",
+      "key": "ticketType",
+      "defaultValue": "<none>",
+      "validate": {
+        "required": true
+      },
+      "disabled": true,
+      "description": "Type of ticket will be booked for your budget"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0u0p8gb",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.1.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.17.0",
+  "schemaVersion": 4
+}

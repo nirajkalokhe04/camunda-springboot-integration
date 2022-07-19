@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "label": "Budget",
+      "type": "textfield",
+      "id": "Field_1j4pydn",
+      "key": "budget",
+      "description": "Enter approved budget to book a flight",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0mvmhi6",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.1.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.17.0",
+  "schemaVersion": 4
+}

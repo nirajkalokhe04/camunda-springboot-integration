@@ -1,0 +1,41 @@
+{
+  "components": [
+    {
+      "label": "Destination",
+      "type": "textfield",
+      "id": "Field_1a19ro7",
+      "key": "destination",
+      "description": "Where to travel",
+      "validate": {
+        "pattern": "mumbai|delhi",
+        "required": true
+      }
+    },
+    {
+      "label": "Money",
+      "type": "textfield",
+      "id": "Field_0zjain5",
+      "key": "money",
+      "description": "How much money do you have",
+      "validate": {
+        "required": false
+      }
+    },
+    {
+      "label": "Taxi Cost",
+      "type": "textfield",
+      "id": "Field_1q4re1j",
+      "key": "TaxiCost",
+      "description": "How much money you want for taxi"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1uyf2h5",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.1.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.17.0",
+  "schemaVersion": 4
+}
